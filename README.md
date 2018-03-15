@@ -16,7 +16,7 @@ Checks for extra incorrect brackets and warns users
 
 ## Known Issues
 
-None found yet. If you do, please create a new issue on github
+None found yet. If you do, please create a new issue on github (https://github.com/ShivanshVij/Escape-Clause/)
 
 ## Release Notes
 
