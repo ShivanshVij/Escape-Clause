@@ -1,0 +1,42 @@
+{
+    "name": "escape-clause",
+    "displayName": "Escape Clause",
+    "description": "An escape clause that allows developers to quickly close off all brackets in a line with a single command",
+    "version": "1.0.0",
+    "publisher": "ShivanshVij",
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.escapeClause"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "keybindings": [{
+            "command": "extension.escapeClause",
+            "key": "ctrl+]",
+            "mac": "cmd+]",
+            "when": "editorTextFocus"
+        }],
+        "commands": [
+            {
+                "command": "extension.escapeClause",
+                "title": "Escape Clause"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "eslint": "^4.11.0",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    }
+}
