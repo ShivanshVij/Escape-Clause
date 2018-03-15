@@ -9,7 +9,7 @@ automatically be closed. You can also trigger the command "Escape Clause" from t
 
 ## Features
 
-Trigger Escape Clause by:
+Trigger Escape Clause by: /n
 'ctrl + ]' on Windows
 'cmd + ]' on Mac
 Selecting Escape Clause on command palette ('ctrl + shift + p)
