@@ -2,10 +2,10 @@
     "name": "escape-clause",
     "displayName": "Escape Clause",
     "description": "An escape clause that allows developers to quickly close off all brackets in a line with a single command",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "publisher": "ShivanshVij",
     "engines": {
-        "vscode": "^1.21.0"
+        "vscode": "^1.8.0"
     },
     "categories": [
         "Other"
@@ -15,12 +15,14 @@
     ],
     "main": "./extension",
     "contributes": {
-        "keybindings": [{
-            "command": "extension.escapeClause",
-            "key": "ctrl+]",
-            "mac": "cmd+]",
-            "when": "editorTextFocus"
-        }],
+        "keybindings": [
+            {
+                "command": "extension.escapeClause",
+                "key": "ctrl+]",
+                "mac": "cmd+]",
+                "when": "editorTextFocus"
+            }
+        ],
         "commands": [
             {
                 "command": "extension.escapeClause",
